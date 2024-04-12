@@ -32,3 +32,77 @@ document.write("</br></br>");
 // 4.Write a JS code to find the power of a number using for loop
 document.write("<h2>4.Write a JS code to find the power of a number using for loop</h2>");
 
+let num = 3;
+let power = 2;
+
+document.write("<h2>" + "Power of Number is " + num ** power);
+
+document.write("</br></br>");
+
+// 5.Write a JS code to print a pattern using for loop
+// 1
+// 1 2
+// 1 2 3
+// 1 2 3 4
+// 1 2 3 4 5
+// 1 2 3 4 5 6
+// 1 2 3 4 5 6 7
+// 1 2 3 4 5 6 7 8
+
+document.write("<h2>5.Write a JS code to print a pattern using for loop</h2>");
+
+document.write("<h2>");
+
+for (let r = 1; r <= 8; r++) {
+    for (let s = 1; s <= r; s++) {
+        document.write(s);
+    }
+    document.write("</br>")
+}
+
+document.write("</br></br>");
+
+// 6. Write a JS code to find the no of digits in a number
+
+document.write("<h2>6.Write a JS code to find the no of digits in a number</h2>");
+
+let Num = 567;
+
+
+document.write("</br></br>");
+
+// 7. Write a JS code to calculate the sum of digits in a number
+
+document.write("<h2>7.Write a JS code to calculate the sum of digits in a number</h2>");
+
+let number = 567;
+let sum = 0;
+
+while (number > 0) {
+    let reminder = number % 10; // Output 5
+    sum = sum + reminder; // 13+5=18
+    number = Math.floor(number / 10); 
+}
+document.write("<h2>" + sum);
+
+document.write("</br></br>");
+
+
+// 8. Write a JS code to find the largest number in an array
+
+document.write("<h2>8.Write a JS code to find the largest number in an array</h2>");
+
+let array = [10,34,28,36,56,27];
+
+array.sort();
+array.reverse();
+
+let largestNum = array[0];
+document.write("<h2>Largest number in array is " + largestNum);
+
+document.write("</br></br>");
+
+// 9. Write a JS code to print the Fibonacci series for a given value of N
+
+document.write("<h2>9.Write a JS code to print the Fibonacci series for a given value of N</h2>");
+
