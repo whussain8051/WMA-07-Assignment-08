@@ -106,3 +106,35 @@ document.write("</br></br>");
 
 document.write("<h2>9.Write a JS code to print the Fibonacci series for a given value of N</h2>");
 
+let firstNum = 0;
+let secondNum = 1;
+
+let N = 10;
+
+for (let i = 0; i <= N; i++) {
+    let valueN = firstNum + secondNum;
+    document.write("<h2>" + valueN);
+    firstNum = secondNum;
+    secondNum = valueN;
+}
+
+document.write("</br></br>");
+
+
+// 10.Write a JS code to find duplicate values in a given array
+
+document.write("<h2>10.Write a JS code to find duplicate values in a given array</h2>");
+
+let array2 = [1,1,2,2,2,3,4,5,6,6,7,8];
+
+let result = array2.filter(function(val,index){
+    return array2.indexOf(val) !== index;
+});
+
+document.write("<h2>" + result);
+
+document.write("</br></br>");
+
+// 11. Write a JS code for Linear search algorithm
+document.write("<h2>11.Write a JS code for Linear search algorithm</h2>");
+
