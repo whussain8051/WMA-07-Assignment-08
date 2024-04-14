@@ -125,7 +125,7 @@ document.write("</br></br>");
 
 document.write("<h2>10.Write a JS code to find duplicate values in a given array</h2>");
 
-let array2 = [1,1,2,2,2,3,4,5,6,6,7,8];
+let array2 = [1,1,2,2,,3,4,5,6,6,7,8];
 
 let result = array2.filter(function(val,index){
     return array2.indexOf(val) !== index;
@@ -138,3 +138,17 @@ document.write("</br></br>");
 // 11. Write a JS code for Linear search algorithm
 document.write("<h2>11.Write a JS code for Linear search algorithm</h2>");
 
+let userData = [10,23,45,32,56,6,76];
+
+
+
+document.write("</br></br>");
+
+
+// 12. Write a JS code for Binary search algorithm
+document.write("<h2>12.Write a JS code for Binary search algorithm</h2>");
+
+
+
+
+document.write("</br></br>");
